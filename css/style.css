@@ -1,0 +1,114 @@
+/* CSS Document */
+
+/*全局reset开始*/
+body,p,form,input,ul,li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	font-size:12px;
+	font-family:arial;
+}
+img{
+	border:0;
+}
+a{
+	color:#333333;
+}
+a:hover{
+	color:#00c;
+}
+/*全局reset结束*/
+
+/*头部top开始*/
+#top{
+	height:25px;
+	width:100%;
+	line-height:25px;
+	margin-top:19px;
+	position:absolute;
+	right:0;
+}
+#top ul{
+	float:right;
+}
+#top ul li{
+	float:left;
+	margin-right:20px;
+}
+#top ul li a{
+	font-size:14px;
+	font-weight:700;
+	color:#333;
+	text-decoration:underline;
+}
+#top ul li a:hover{
+	color:#00c;
+}
+#top ul li.top_sign a{
+	font-weight:normal;
+}
+#top ul li.top_more a{
+	background:#3388ff;
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding-left:4px;
+	padding-right:4px;
+	margin-left:4px;
+	margin-right:13px;
+}
+/*头部top结束*/
+
+/*logo 开始*/
+.wrapper{
+	text-align:center;
+}
+
+/*logo结束*/
+
+/*搜索开始*/
+.wrapper_so{
+	width:672px;
+	margin:0 auto;
+}
+.wrapper_so form{
+	float:left;
+	width:566px;
+	position:relative;
+}
+.wrapper_so form input{
+	border:1px solid #b8b8b8;
+	border-right-width:0;
+}
+.wrapper_so form input:hover{
+	border:1px solid #999999;
+	border-right-width:0;
+}
+.wrapper_so form i{
+	width:18px;
+	height:16px;
+	position:absolute;
+	top:11px;
+	left:536px;
+	background:url(../images/camera_new_5606e8f.png) no-repeat;
+}
+.wrapper_so form i:hover{
+	background:url(../images/camera_new_5606e8f.png) 0 -20px; no-repeat;
+}
+.wrapper_so span{
+	float:left;
+	display:block;
+	width:105px;
+	height:38px;
+	text-align:center;
+	background:#3385ff;
+	color:#fff;
+	line-height:38px;
+	font-size:16px;
+}
+.wrapper_so span:hover{
+	background:#317ef3;
+}
+/*搜索结束*/
